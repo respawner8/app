@@ -1,7 +1,7 @@
 var un=localStorage.getItem('un');
 function a(){
     console.log('abc');
-    axios.get('http://localhost:3001/farmer')
+    axios.get('http://13.233.152.146:3001/farmer')
     .then((response)=>{
         var s=response.data.length
         var k=1;
@@ -83,7 +83,7 @@ function form2(){
     document.getElementById('exPrice').value=``;
     
     //console.log(un);
-    axios.post('http://localhost:3001/farmer',{
+    axios.post('http://13.233.152.146:3001/farmer',{
         username: un,
         cropname: cropName,
         quantity: cropQuantity,
@@ -101,7 +101,7 @@ function form2(){
 
     document.getElementById('crop').innerHTML=``;
 
-   axios.get('http://localhost:3001/farmer')
+   axios.get('http://13.233.152.146:3001/farmer')
     .then((response)=>{
         var si=response.data.length
         var j=1;

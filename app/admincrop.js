@@ -1,7 +1,7 @@
 var un2=localStorage.getItem('un1');
 function a(){
     console.log('abc');
-    axios.get('http://localhost:3001/farmer')
+    axios.get('http://13.233.152.146:3001/farmer')
     .then((response)=>{
         var s=response.data.length
         var k=1;

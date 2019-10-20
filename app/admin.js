@@ -1,6 +1,6 @@
 function a1()
     {
-        axios.get('http://localhost:3001/users')
+        axios.get('http://13.233.152.146:3001/users')
         .then((response)=>{
             for(var i=0;i<response.data.length;i++)
                 {

@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const usermodel=require('../models/usermodels');
 
 router.get('/',function(req,res){
-    
+     
     usermodel.find()
     
     .exec()

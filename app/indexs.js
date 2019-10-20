@@ -7,7 +7,7 @@ function fun(){
         var usern=document.getElementById('usern').value;
         document.getElementById('pass').value=``;
         document.getElementById('usern').value=``;
-    axios.get(`http://localhost:3001/users/${usern}`)
+    axios.get(`http://13.233.152.146:3001/users/${usern}`)
     .then((response)=>{
         console.log(response)
         

@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const usermodel=require('../models/farmermodel');
 
-router.get('/',function(req,res){
+ router.get('/',function(req,res){
     
     usermodel.find()
     

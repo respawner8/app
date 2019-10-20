@@ -10,7 +10,7 @@ function fun(){
       }
       console.log(rate_value);
     
-    axios.post('http://localhost:3001/users',{
+    axios.post('http://13.233.152.146:3001/users',{
         username:document.getElementById('username').value,
         name:document.getElementById('fname').value,
         email: document.getElementById('email').value,
